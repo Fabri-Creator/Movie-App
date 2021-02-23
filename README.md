@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+## Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created in order to put my react knowledge into practice and improve good code practices.
+
+The goal of emulating Netflix was set to be able to implement calls to APIs, create reusable components and connect them through redux.
+
+## Technologies
+
+- JavaScript
+- React.js
+- Saas
+- Redux
+- movie (API)
+- lodash
 
 ## Available Scripts
 
