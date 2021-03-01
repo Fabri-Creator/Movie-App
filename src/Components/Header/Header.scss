@@ -1,0 +1,139 @@
+.header-main-container {
+  width: 100%;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
+  background-color: #141414;
+}
+.main-div-uno {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .menu {
+    display: none;
+  }
+}
+.main-div-dos {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 18%;
+    padding: 1rem;
+  }
+  .avatar-div {
+    height: auto;
+    width: 2rem;
+  }
+  i.fas.fa-gift {
+    font-size: 1.2rem;
+  }
+  i.fas.fa-bell {
+    font-size: 1.2rem;
+  }
+  i.fas.fa-search {
+    font-size: 1.2rem;
+  }
+}
+.logo-div {
+  height: 118%;
+  padding-right: 2rem;
+}
+.ul-div {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  list-style: none;
+  .li-item {
+    padding: 0.7rem;
+  }
+}
+@media only screen and (min-width: 890px) and (max-width: 1125px) {
+  .header-main-container {
+    padding: 0.5rem 2rem;
+  }
+  a.text-menu {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 667px) and (max-width: 890px) {
+  .header-main-container {
+    padding: 0.5rem 1rem;
+  }
+  .main-div-uno {
+    position: relative;
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .menu {
+      height: auto;
+      display: flex;
+      align-items: center;
+      color: white;
+      padding: 0.5rem;
+      font-size: 0.8rem;
+      .fas.fa-caret-down {
+        padding: 0.5rem;
+        color: white;
+      }
+    }
+    .ul-div {
+      display: none;
+    }
+    .ul-div-drop {
+      position: absolute;
+      width: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      opacity: 0.7;
+      top: 11vh;
+      left: 0.5rem;
+      .li-item-drop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.2rem;
+        background-color: black;
+        opacity: 0.7;
+        a {
+          background-color: black;
+          opacity: 0.7;
+          color: white;
+        }
+      }
+    }
+  }
+  .main-div-dos {
+    .avatar-div {
+      height: auto;
+      width: 1.5rem;
+    }
+    i.fas.fa-gift {
+      font-size: 0.9rem;
+    }
+    i.fas.fa-bell {
+      font-size: 0.9rem;
+    }
+    i.fas.fa-search {
+      font-size: 0.9rem;
+    }
+  }
+}
